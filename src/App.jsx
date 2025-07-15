@@ -49,7 +49,7 @@ export default function App() {
 
     const handleResumeDownload = () => {
         window.open(
-            "https://drive.google.com/file/d/1d7s0LJU9mc819Pu8lKLVnv1ydsZEmN1Z/view?usp=sharing",
+            "https://drive.google.com/file/d/12eTLOmkVo-66EgBgHudVT2PLwFL7uJh5/view?usp=sharing",
             "_blank"
         );
     };
@@ -582,7 +582,7 @@ export default function App() {
                     <ProjectCard
                         title="Lost and Found Items Platform"
                         description="A full-stack web application for managing lost and found items with React frontend and Node.js backend. Features user authentication, item management, recovery tracking, and modern UI/UX."
-                        tech="React 19, Express, MongoDB"
+                        tech="React 19, Express, MongoDB, Firebase, JWT"
                         image="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=400&h=250&fit=crop"
                         liveLink="https://assignment-11-d33f2.web.app"
                         githubLink="https://github.com/spshamim/Where-Is-It"
@@ -593,7 +593,7 @@ export default function App() {
                     <ProjectCard
                         title="Hobby Hub"
                         description="A full-stack web application that connects people with shared interests and hobbies. Built with React 19 frontend featuring modern UI/UX design, Firebase authentication, and a Node.js/Express.js backend with MongoDB."
-                        tech="React 19, Express, MongoDB"
+                        tech="React 19, Express, MongoDB, Firebase"
                         image="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=250&fit=crop"
                         liveLink="https://hobby-hub.web.app"
                         githubLink="https://github.com/spshamim/Hobby-Hub"
@@ -602,12 +602,12 @@ export default function App() {
 
                     {/* Project Card 3 */}
                     <ProjectCard
-                        title="Event Management App"
-                        description="Event management app where users can find upcoming and past events, book events, filter, and manage their booked list with a modern interface."
-                        tech="React 19, Express, MongoDB"
+                        title="Medical Camp Management System"
+                        tech="React 19, Express, MongoDB, Firebase, JWT"
+                        description="A comprehensive web application for organizing and managing medical camps, connecting healthcare organizers with participants. The system provides seamless camp registration, secure payments, feedback management, and robust analytics, with dedicated dashboards for both organizers and participants."
                         image="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=400&h=250&fit=crop"
-                        liveLink="https://ph-assignment-9-29834.web.app"
-                        githubLink="https://github.com/spshamim/Event-Manager"
+                        liveLink="https://mcms-portal.web.app"
+                        githubLink="https://github.com/spshamim/Medical-Camp-Management-System"
                         color="pink"
                     />
                 </div>
